@@ -14,5 +14,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Копируем остальные файлы проекта в контейнер
 COPY . /app
 
-# Запускаем скрипт core.py
+# Запускаем скрипт
 CMD ["python", "bot.py"]
